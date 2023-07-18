@@ -122,11 +122,10 @@ nav {
     font-style: normal;
     font-weight: 600;
     color: #FFF;
+    width: 50%;
     /* font-size: 20px; */
     padding: 15px 25px;
     text-transform: uppercase;
-
-
 }
 
 .btn-2nd {
@@ -138,14 +137,27 @@ nav {
     /* font-size: 20px; */
     padding: 15px 25px;
     text-transform: uppercase;
-
+}
+/* we-are-gamer-container section statr */
+.we-are-gamer-container{
+    width: 80%;
+    margin: auto;
+    border: 2px solid red;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.we-are-gamer-img{
+    width: 100%;
+}
+.we-are-gamer-contain{
+    text-align: end;
 }
 
-/* banner-container section end here */
+/* we-are-gamer-container section end  */
 
-/* nav design ends here */
-
-
+/* Media for mobile l device */
 @media screen and (max-width:425px) {
     .nav-container {
         flex-direction: column;
@@ -170,13 +182,33 @@ nav {
         margin: 10px 10px;
     }
     /* .banner-container  */
-    .banner-container {
-        
-        flex-direction: column;
-        width: 100%;
-        margin: 3px;
-        padding: 0px;
-        
-    }
+    
 
+    .banner-content {
+        width: 100%;
+
+
+    
+    }
+    
+    .banner-img {
+        margin-top: 40px;
+        width: 100%;
+        border: 2px solid rosybrown;
+    }
+    .banner-container {
+        flex-direction: column;
+        margin: auto;
+    }
+    /* we-are-gamer-container */
+    .we-are-gamer-container{
+        flex-direction: column;
+    }
+    .we-are-gamer-img img{
+        width: 100%;
+    }
+    .we-are-gamer-contain{
+        text-align: center;
+    }
+    
 }
