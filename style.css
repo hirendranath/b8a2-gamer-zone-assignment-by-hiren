@@ -1,11 +1,182 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
 
-*{
+* {
     box-sizing: border-box;
 }
-body{
+
+body {
+    margin: 0px;
+    padding: 0px;
     font-family: 'Work Sans';
+    border: 2px solid red;
 }
 
+.primary-color {
+    color: #FF42A5;
+}
+
+/* All button style start here */
+.items-container .follow-btn {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 20px;
+    /* font-weight: 700; */
+    justify-content: center;
+    border-radius: 5px;
+    color: black;
+    width: 100%;
+    align-items: end;
+}
+
+/* All button style end here */
+
+/* nav design start here */
+
+nav {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    /* border: 2px solid red; */
+}
+
+.nav-container {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.logo-container {
+
+    display: flex;
+    width: 50%;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+
+.items-container a {
+    text-decoration: none;
+
+
+}
+
+.nav-items-container {
+    display: flex;
+    align-items: center;
+}
+
+/* banner-container section start here */
+
+.banner-container {
+    max-width: 1400px;
+    display: flex;
+    width: 80%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.banner-content {
+    width: 50%;
+    background-image: url(images/Group14.png);
+    background-repeat: no-repeat;
+
+    border: 2px solid green;
+}
+
+.banner-img {
+    width: 50%;
+    border: 2px solid rosybrown;
+}
+
+.banner-img img {
+    width: 100%;
+}
+
+.title-text {
+    color: #0B0223;
+    /* text-align: center; */
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.banner-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    font-size: ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.btn-group{
+    margin-top: 50px;
+}
+.btn-primary {
+    background-color: #FF42A5;
+    border-radius: 30px;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFF;
+    /* font-size: 20px; */
+    padding: 15px 25px;
+    text-transform: uppercase;
+
+
+}
+
+.btn-2nd {
+    border-radius: 30px;
+    background: #4EC5F7;
+    font-style: normal;
+    font-weight: 600;
+    color: #FFF;
+    /* font-size: 20px; */
+    padding: 15px 25px;
+    text-transform: uppercase;
+
+}
+
+/* banner-container section end here */
+
 /* nav design ends here */
-/* nav design ends here */
+
+
+@media screen and (max-width:425px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-items-container {
+        flex-direction: column;
+    }
+
+    .items-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .items-container a {
+        margin-top: 20px;
+    }
+
+    .items-container .follow-btn {
+        width: 50%;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    /* .banner-container  */
+    .banner-container {
+        
+        flex-direction: column;
+        width: 100%;
+        margin: 3px;
+        padding: 0px;
+        
+    }
+
+}
