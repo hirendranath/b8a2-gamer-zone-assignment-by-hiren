@@ -47,6 +47,7 @@
 
     .play-instantly-container {
         flex-direction: column;
+        
     }
     .play-instantly-img,
     .play-instantly-text {
@@ -105,9 +106,10 @@
 
     .items-group{
         display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        width: 80%;
-        margin: auto;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        text-align: center;
+        margin: 0px;
     }
 
 
