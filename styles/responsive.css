@@ -1,0 +1,134 @@
+/* Media for mobile l device */
+@media screen and (max-width:425px) {
+    .nav-container {
+        flex-direction: column;
+    }
+    .items{
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    /* .items-container {
+        flex-direction: column;
+        width: 100%;
+    } */
+
+    /* .items-container a{
+        margin-top: 20px;
+    } */
+
+    /* .follow-btn {
+        width: 100%;
+        text-align: center;
+        margin: 10px 10px;
+    } */
+
+    /* .banner-container  */
+
+
+    .banner-content {
+        width: 100%;
+
+    }
+
+    .banner-img {
+        margin-top: 40px;
+        width: 100%;
+        border: 2px solid rosybrown;
+    }
+
+    .banner-container {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    /* we-are-gamer-container */
+    .we-are-gamer-container {
+        flex-direction: column;
+    }
+
+    .we-are-gamer-img img {
+        width: 100%;
+    }
+
+    .we-are-gamer-contain {
+        text-align: center;
+    }
+
+    /* grid-container  */
+    .card-group {
+        grid-template-columns: 1fr;
+
+    }
+
+    .play-instantly-container {
+        flex-direction: column;
+    }
+
+    .play-instantly-img,
+    .play-instantly-text {
+        width: 100%;
+    }
+
+    /* footer styles */
+    .footer-social-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-menus{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-menus{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    /* .footer-menus{
+          <p> Play Games @ Gamer <br> @ 2000-2023 Gamer Bangladesh</p>
+    } */
+
+    /* careers-container here  */
+
+    .careers-container {
+        flex-direction: column;
+        width: 100%;
+        /* justify-content: center;
+        align-items: center;
+        margin: 0 auto; */
+    }
+    .games-types-grid-container{
+        display: grid;
+        width: 100%;
+        align-content: center;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .single-game{
+        display: flex;
+        width: 100%;
+        font-size: 16px;
+        justify-content: center;
+        align-items: center;
+    }
+    .single-game img {
+        display: flex;
+        size: 30px;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/* Media for tablet max 992px device */
+
+@media screen and (max-width: 992px){
+
+
+    }
