@@ -195,8 +195,11 @@ nav {
 
 .single-product {
     border-radius: 10px;
-    /* border: 2px solid red; */
 }
+.single-product :hover{
+    opacity: 0.5;
+}
+
 
 .single-product img {
     width: 70%;
@@ -204,7 +207,9 @@ nav {
     margin: 0 auto;
 }
 
-
+.single-product-one{
+    background-blend-mode:;
+}
 /* play-instantly-container start here  */
 
 .play-instantly-container {
@@ -366,16 +371,35 @@ nav {
 .games-types-grid-container {
     /* border: 2px solid #0B0223; */
     margin: 50px auto 0px;
-    min-height: 300px;
+    min-height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
 }
+.single-game img p {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
 
 /* games-types-grid-container start here  */
 .items-group{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     width: 80%;
-    margin-left: 100px;
-    /* margin: auto; */
+    justify-content: center;
+}
+.single-game{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.single-game>img{
+    height: 40px;
 }
 .items-group :hover{
     border: 2px solid #F948B2;
