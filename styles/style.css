@@ -13,6 +13,9 @@ body {
 .primary-color{
     color: #FF42A5;
 }
+.white-text{
+    color: #FFF;
+}
 .liner-color{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
