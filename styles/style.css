@@ -8,7 +8,6 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: 'Work Sans';
-    /* border: 2px solid red; */
 }
 
 .primary-color{
@@ -33,7 +32,6 @@ nav {
 }
 
 .nav-container {
-    /* min-height: 100px; */
     padding: 20px;
     display: flex;
     align-items: center;
@@ -66,9 +64,6 @@ nav {
     background: rgba(11, 2, 35, 0.10);
     padding: 10px 20px;
     justify-content: center;
-    /* color: black; */
-    /* width: 100%; */
-    /* gap: 20px; */
 }
 
 /* banner-container section start here */
@@ -76,7 +71,6 @@ nav {
 .banner-container {
     display: flex;
     width: 80%;
-    /* border: 1px solid red; */
     margin: 0 auto;
 }
 
@@ -84,7 +78,6 @@ nav {
     width: 50%;
     background-image: url(images/Group14.png);
     background-repeat: no-repeat;
-    /* border: 2px solid green; */
 }
 
 .banner-img {
@@ -105,7 +98,6 @@ nav {
 .banner-text {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
-    font-size: ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 4rem;
@@ -200,7 +192,6 @@ nav {
     opacity: 0.5;
 }
 
-
 .single-product img {
     width: 70%;
     display: block;
@@ -210,24 +201,27 @@ nav {
 .single-product-one{
     background-blend-mode:;
 }
+
 /* play-instantly-container start here  */
 
 .play-instantly-container {
     display: flex;
-    /* border: 2px solid rosybrown; */
     justify-content: center;
     align-items: center;
-    margin: 50px auto;
+    margin: 30px auto;
 }
+
 .play-instantly-section {
     width: 80%;
     margin: auto;
 }
+
 .play-instantly-text{
     width: 30%;
     margin: auto;
     text-align: right;
 }
+
 .play-instantly-img {
     /* width: 50%; */
     position: relative;
@@ -340,9 +334,6 @@ nav {
 .multimedia-container {
     display: flex;
     gap: 50px;
-    /* justify-content: center;
-    align-items: center; */
-
 }
 
 .multimedia-address {
@@ -454,4 +445,4 @@ footer>.footer-color p{
     text-align: center;
     font-size: 12px;
 }
-
+/* the end here */

@@ -89,6 +89,7 @@
         margin-right: 200px;
         margin-top: 100px;
     }
+
     /* Careers section start here  */
 
     .careers-container {
@@ -160,6 +161,7 @@
 }
 
 /* Styles for tablet devices */
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
     .nav-container {
         flex-direction: column;
@@ -182,3 +184,4 @@
     }
 
   }
+  /* the end  */
