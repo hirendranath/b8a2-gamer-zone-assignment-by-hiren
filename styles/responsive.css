@@ -161,5 +161,24 @@
 
 /* Styles for tablet devices */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    
+    .nav-container {
+        flex-direction: column;
+    }
+    .card-group {
+        display: grid;
+        width: 80%;
+        margin: 50px auto 0;
+        min-height: 400px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .play-instantly-text{
+        margin-right: 200px;
+        width: 100%;
+    }
+    .play-games-online-text{
+        margin-left: 200px;
+        width: 100%;
+    }
+
   }
