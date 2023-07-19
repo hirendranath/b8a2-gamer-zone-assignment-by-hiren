@@ -416,8 +416,6 @@ footer {
     justify-content: center;
     align-items: center;
     gap: 30px;
-    /* display: grid;
-    grid-template-columns: repeat(6, 1fr); */
     color: #FFF;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -433,4 +431,3 @@ footer>.footer-color p{
     font-size: 12px;
 }
 
-/* here is the footer end here  */

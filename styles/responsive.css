@@ -113,36 +113,6 @@
     }
 
 
-
-
-    /* footer styles */
-    .footer-social-icons{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        align-items: center;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    .footer-menus{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        align-items: center;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    .footer-menus{
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        align-items: center;
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    /* .footer-menus{
-          <p> Play Games @ Gamer <br> @ 2000-2023 Gamer Bangladesh</p>
-    } */
-
-    /* careers-container here  */
-
     .careers-container {
         flex-direction: column;
         width: 100%;
@@ -170,4 +140,21 @@
         justify-content: center;
         align-items: center;
     }
+
+    /* footer styles */
+    .footer-social-icons{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .footer-menus{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: center;
+        margin-bottom: 40px;
+    }  
+    
 }
